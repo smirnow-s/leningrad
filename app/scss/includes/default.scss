@@ -1,0 +1,76 @@
+// Default SCSS
+	body {
+		min-width: 320px;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+
+	.wrapper {
+		overflow-x: hidden;
+	}
+
+	img {
+		max-width: 100%;
+		height: auto;
+		outline: 0;
+	}
+
+	svg {
+		min-width: 1%;
+		min-height: 1%;
+		height: auto;
+	}
+
+	ul, ol {
+		padding: 0;
+		margin: 0;
+		li {
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+
+	p {
+		margin-top: 0;
+	}
+
+	a {
+		outline: 0;
+	}
+
+	figure {
+		margin: 0;
+	}
+
+	button,
+	input[type=button],
+	input[type=submit] {
+		outline: 0;
+		cursor: pointer;
+		&:focus {
+			outline: 0;
+		}
+	}
+
+	button {
+		padding: 0;
+		border: 0;
+		background: transparent;
+	}
+
+	textarea {
+		resize: none;
+	}
+
+	.__web-inspector-hide-shortcut__ {
+		display: none !important;
+	}
+
+
+// Media
+	$sm: 'min-width: 576px';
+	$md: 'min-width: 750px';
+	$lg: 'min-width: 992px';
+	$xl: 'min-width: 1200px';
+	$xxl: 'min-width: 1440px';
