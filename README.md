@@ -2,6 +2,6 @@
 
 To run test app, use:
 
-$ npm i
-$ gulp build
-$ gulp
+> $ npm i
+> $ gulp build
+> $ gulp
